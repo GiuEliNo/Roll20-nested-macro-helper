@@ -11,13 +11,24 @@ Welcome this repository contains a little utility tool to help modifying [nested
 - A functioning computer with a functioning operating system. 
 - JDK23+ to run the program. 
 
+## How to run:
+### For windows users:
+- Download the WINDOWS zip file from the [Release](https://github.com/GiuEliNo/Roll20-nested-macro-helper/releases/tag/v1.0.0)
+- Extract the zip file and go inside the bin directory
+- Double click on app.bat
+
+### For linux users:
+- Download the Linux zip file from the [Release](https://github.com/GiuEliNo/Roll20-nested-macro-helper/releases/tag/v1.0.0)
+- Extract the zip file and navigate into the bin directory
+- Run from the terminal ./app.sh 
+
 ## Example
-Transform this:
+- Transform this:
 
 `&{template:pc} {{showchar=[[1]]}} {{charname=@{selected|character_name}}} {{name=Glaive Attack}} {{damage=1}} {{type=attack}} {{atkvs=Melee vs AC}} {{roll=[[1d20]]}} {{critconfirm=[[1d20]]}} {{dmg1flag=1}} {{dmg1=[[2d6]]}} {{rolldmg1type=Slashing}} {{rolldmg1crit=[[3d10]]}}
 `
 
-in this:
+- in this:
 
 `&{template:pc&#125; {{showchar=[[1]]&#125;&#125; {{charname=@{selected|character_name}&#125;&#125; {{name=Glaive Attack&#125;&#125; {{damage=1&#125;&#125; {{type=attack&#125;&#125; {{atkvs=Melee vs AC&#125;&#125; {{roll=[[1d20]]&#125;&#125; {{critconfirm=[[1d20]]&#125;&#125; {{dmg1flag=1&#125;&#125; {{dmg1=[[2d6]]&#125;&#125; {{rolldmg1type=Slashing&#125;&#125; {{rolldmg1crit=[[3d10]]&#125;&#125;`
 
