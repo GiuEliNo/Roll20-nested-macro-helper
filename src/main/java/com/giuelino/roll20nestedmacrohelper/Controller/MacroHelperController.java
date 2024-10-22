@@ -11,7 +11,6 @@ import javafx.scene.image.ImageView;
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
-import java.util.Locale;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
